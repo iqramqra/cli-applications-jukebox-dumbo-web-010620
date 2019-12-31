@@ -50,7 +50,7 @@ def run(songs)
   case command
 
   when command=="exit"
-    exit
+   then exit_jukebox
   # if command =="exit"
   #   exit_jukebox
   # end
