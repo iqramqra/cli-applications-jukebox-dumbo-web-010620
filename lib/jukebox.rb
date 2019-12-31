@@ -49,7 +49,7 @@ def run(songs)
   
   case command
   when "exit"
-    
+    exit_jukebox
   when command=="list" then list(songs)
   when command=="play" then play(songs)
   end
