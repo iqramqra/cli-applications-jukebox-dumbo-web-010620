@@ -46,6 +46,7 @@ def run(songs)
   puts "Please enter a command:"
   help
   if command =="exit"
+    exit_jukebox
 end
 # def run
 #   puts "Please enter a command:"
