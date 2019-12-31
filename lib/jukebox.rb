@@ -48,8 +48,9 @@ def run(songs)
   command=gets.chomp
   
   case command
-  
-  when command=
+
+  when command=="exit"
+    exit
   # if command =="exit"
   #   exit_jukebox
   # end
