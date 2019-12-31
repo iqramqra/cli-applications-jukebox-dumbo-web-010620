@@ -44,7 +44,7 @@ end
 
 def run
   puts "Please enter a command:"
-  
+  help
   
 end
 # def run
