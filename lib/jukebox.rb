@@ -51,10 +51,11 @@ def run(songs)
 
   when command=="exit"
    then exit_jukebox
-   
-  # if command =="exit"
-  #   exit_jukebox
-  # end
+  when command=="list"
+    then list
+    when command=="play"
+      then play
+  end
 end
 # def run
 #   puts "Please enter a command:"
